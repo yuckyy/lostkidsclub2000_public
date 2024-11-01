@@ -1,0 +1,358 @@
+.nav-row {
+
+}
+
+.text-left {
+    text-align: left;
+}
+
+#contentBody{
+    background: black;
+}
+
+h1{
+    color:#00dd00;
+}
+label{
+    color:#00dd00;
+}
+
+.bg-dark{
+    background: black!important;
+
+}
+
+a{
+    color:red!important;
+}
+
+span{
+    color:#ff00ff!important;
+
+}
+.price-adm{
+    color: black!important;
+}
+.navbar-dark .navbar-toggler-icon{
+
+}
+ button{
+    background-color: #e10dfd!important;
+}
+.text-right {
+    text-align: right;
+}
+
+.nav-bar-block {
+
+}
+
+.btn-none-padding {
+    padding-left: 0;
+}
+
+.modal-dialog {
+    max-width: 1250px;
+    /*margin: 14rem auto;*/
+}
+.modal-row-block{
+    /*background: aquamarine;*/
+}
+.modal-description-block {
+    padding: 10px
+}
+
+.btn-add-count::before {
+
+    background: none;
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: 0.5;
+    content: '+';
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.btn-delete-count::before{
+    background: none;
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: 0.5;
+    content: '-';
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.btn-close-modal {
+    background-color: #ebebeb;
+    border-radius: 100%;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.btn-add-to-cart {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.desc-text-block {
+    min-height: 325px;
+}
+
+.modal-content {
+    overflow: hidden;
+    border: none;
+    border-radius: 20px;
+}
+
+.modal-row-block {
+    min-height: 424px;
+}
+
+.items-page {
+    background: blue;
+    padding-top: 40px;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.btn-food-add-main {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.btn-light-my-tabs{
+    /*margin-left: 0;*/
+}
+.main-item-desc {
+    margin-top: 5px;
+}
+
+.item-food-main-block-inner {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+}
+
+.cat-span-block {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.item-food-main-block {
+    padding-bottom: 20px;
+    /*padding: 20px;*/
+    height: 100%;
+}
+
+.img-top-block {
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* Задаем высоту, равную ширине, с использованием аспект-отношения */
+    overflow: hidden;
+}
+.count-inner-cart-block{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.none-margin{
+    /*margin: 0!important;*/
+}
+.count-inner-block{
+    gap: 10px;
+    /*display: flex;*/
+    align-items: center;
+}
+.square-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Занимает всю высоту контейнера */
+    object-fit: cover; /* Сохраняет пропорции и обрезает изображение, чтобы оно полностью заполнило контейнер */
+}
+
+body{
+    padding-right: 0!important;
+}
+.cleanUpCart{
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: black;
+}
+#cart-inner-item-js{
+    /*min-width: 350px;*/
+}
+.img-food-main-block-item {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-food-main-block-item-modal {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-light-my-tabs {
+    background-color: #ebebeb;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+.btn-light-my-tabs-items{
+    background-color: #ebebeb;
+    padding: 5px;
+    /*margin: 5px;*/
+    border-radius: 10px;
+}
+.page-outer {
+    width: 400%;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-light-my:hover {
+    background-color: #ebebeb;
+}
+
+.btn-light-my:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-light-my {
+    border-radius: 15px;
+}
+
+.content {
+
+}
+.content-flex{
+    display: flex;
+}
+.open-basket-exit {
+    /*max-width: 80%;*/
+    transition: max-width 1.7s ease, height 0.3s ease;
+}
+.open-basket-enter {
+    width: 100%;
+    max-width: 100%;
+    transition: max-width 1.7s ease;
+}
+
+.d-on {
+    width: 30%;
+    opacity: 1;
+    transition: width 1.7s ease, height 0.3s ease, opacity 1.5s ease, height 0.3s ease;
+}
+.cart-table{
+    width: 100%;
+}
+.d-none-my {
+    width: 0%;
+    opacity: 0;
+    transition: width 1s ease, opacity 1s ease, height 0.3s ease;
+}
+.basket-outer{
+    /*position: fixed;*/
+    min-width: 355px;
+}
+.basket {
+    border: 1px solid #d9d9d9;
+    border-bottom:none;
+}
+
+.basket-inner {
+    position: fixed;
+    padding: 10px;
+}
+
+.tabs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.black-border-focus:focus {
+    outline-color: black !important;
+    box-shadow: black !important;
+}
+
+.cart-item {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.cart-item-inner-description {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.cart-item-inner-description-price {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.cart-inner-desc {
+    font-size: 12px;
+    width: 150px;
+}
+
+.img-cart-inner {
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    .content {
+        display: block;
+    }
+    .item-food-main-block {
+        /*padding: 10px;*/
+    }
+
+    .modal-dialog {
+        margin-top: 1rem;
+    }
+
+    .modal-row-block {
+        height: 100%;
+    }
+
+    .btn-none-padding-right {
+        padding-right: 0;
+    }
+
+    .btn-none-padding-left {
+        padding-left: 0;
+    }
+
+    .items-page {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .btn-light-my:hover {
+        background-color: white;
+    }
+}
